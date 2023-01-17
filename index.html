@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Homepage</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/overall.css">
+    </head>
+    <body class="main">
+        <div>   
+            <div class="head">
+                <h1>
+                        Niall's Soccer Blog
+                </h1>
+            </div>
+            <h2 id="align">
+                Click on the names to go to the team!
+            </h2>
+            <img id="centerpiece" src="images/map.jpeg" alt="Workplace" usemap="#workmap">
+            <map name="workmap">
+                <area shape="rect" coords="102,296,179,319" alt="Madrid" href="pages/madrid.html">
+                <area shape="rect" coords="116,330,231,353" alt="Barca" href="pages/barca.html">
+                <area shape="rect" coords="193,250,251,274" alt="Paris" href="pages/psg.html">
+                <area shape="rect" coords="258,247,340,272" alt="Bayern" href="pages/bayern.html">
+                <area shape="rect" coords="232,284,333,306" alt="Juventus" href="pages/juve.html">
+                <area shape="rect" coords="92,179,195,204" alt="Liverpool" href="pages/liverpool.html">
+                <area shape="rect" coords="115,220,206,241" alt="Chelsea" href="pages/chelsea.html">
+                <area shape="rect" coords="209,162,340,183" alt="Manchester" href="pages/utd.html">
+                <area shape="rect" coords="218,200,302,225" alt="Arsenal" href="pages/arsenal.html">
+            </map>
+            <p id="para">
+                This site is meant as a quick overview of the most popular soccer teams in Europe. As an American having lived in Europe, I experienced some of the wonderful soccer culture there, and by making this I intended for someone with little to no idea of the section of the sport, to get to know it a little. Having had to explain the culture to some of my less informed friends has allowed me to have a better understanding of how to sum the culture up to someone on the outside. 
+            </p>
+            <table class="success">
+                <thead>
+                    <tr>
+                        <th colspan="3">My Gauge of Recent Success of Given Teams</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">Most Successful</th>
+                        <th scope="col">Relatively Successful</th>
+                        <th scope="col">Less Successful</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Real Madrid</td>
+                        <td>Chelsea</td>
+                        <td>Arsenal</td>
+                    </tr>
+                    <tr>
+                        <td>Bayern Munich</td>
+                        <td>Liverpool</td>
+                        <td>Juventus</td>
+                    </tr>
+                    <tr>
+                        <td>Paris SG</td>
+                        <td>Barcelona</td>
+                        <td>Manchester Utd</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="success">
+                <caption>How Much I Like Each Team in Order</caption>
+                <tbody>
+                    <tr>
+                        <td>1) Bayern Munich</td>
+                        <td>2) Manchester United</td>
+                        <td>3) Liverpool</td>
+                        <td rowspan="3">Disclaimer</td>
+                    </tr>
+                    <tr>
+                        <td>4) Real Madrid</td>
+                        <td>5) Juventus</td>
+                        <td>6) Chelsea</td>
+                        <td rowspan="1">This is only based on my own perception</td>
+                    </tr>
+                    <tr>
+                        <td>7) Arsenal</td>
+                        <td>8) Paris Saint-Germain</td>
+                        <td>9) Barcelona</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" rowspan="2">I am only a fan of Bayern Munich though</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <h2>
+                Feedback is appreciated!
+            </h2>
+            <form method="post" action="http://amgilder.wcit.cs.unh.edu/cgi-bin/test403">
+                <p>
+                    <label for="name">Name:</label>
+                    <input name="name" id="name" type="text">
+                </p>
+                <fieldset>
+                    <legend>
+                        Favorite Team
+                    </legend>
+                    <fieldset>
+                        <input name="ctype" id="madrid" type="radio" value="Madrid" checked="checked">
+                        <label for="manu">Real Madrid</label><br>
+                        <input name="ctype" id="manu" type="radio" value="Man u">
+                        <label for="manu">Manchested United</label><br>
+                        <input name="ctype" id="barca" type="radio" value="Barca">
+                        <label for="barca">FC Barcelona</label><br>
+                        <input name="ctype" id="paris" type="radio" value="Paris">
+                        <label for="paris">Paris Saint-Germain</label><br>
+                        <input name="ctype" id="bayern" type="radio" value="Bayern">
+                        <label for="bayern">Bayern Munich</label><br>
+                        <input name="ctype" id="juve" type="radio" value="Juve">
+                        <label for="juve">Juventus FC</label><br>
+                        <input name="ctype" id="liverpool" type="radio" value="Liverpool">
+                        <label for="liverpool">Liverpool FC</label><br>
+                        <input name="ctype" id="chelsea" type="radio" value="Chelsea">
+                        <label for="chelsea">Chelsea FC</label><br>
+                        <input name="ctype" id="arsenal" type="radio" value="Arsenal">
+                        <label for="arsenal">Arsenal FC</label><br>
+                    </fieldset>
+                </fieldset>
+                <p>
+                    <label for="rate">Rate this website</label>
+                    <select name="rate" id="rate">
+                        <option>Good</option>
+                        <option>Okay</option>
+                        <option>Bad</option>
+                    </select>
+                </p>
+                <p>
+                    Which team pages have you visited?<br>
+                    <input name="ctype" id="madrid" type="checkbox" value="Madrid">
+                        <label for="manu">Real Madrid</label><br>
+                        <input name="ctype" id="manu" type="checkbox" value="Man u">
+                        <label for="manu">Manchested United</label><br>
+                        <input name="ctype" id="barca" type="checkbox" value="Barca">
+                        <label for="barca">FC Barcelona</label><br>
+                        <input name="ctype" id="paris" type="checkbox" value="Paris">
+                        <label for="paris">Paris Saint-Germain</label><br>
+                        <input name="ctype" id="bayern" type="checkbox" value="Bayern">
+                        <label for="bayern">Bayern Munich</label><br>
+                        <input name="ctype" id="juve" type="checkbox" value="Juve">
+                        <label for="juve">Juventus FC</label><br>
+                        <input name="ctype" id="liverpool" type="checkbox" value="Liverpool">
+                        <label for="liverpool">Liverpool FC</label><br>
+                        <input name="ctype" id="chelsea" type="checkbox" value="Chelsea">
+                        <label for="chelsea">Chelsea FC</label><br>
+                        <input name="ctype" id="arsenal" type="checkbox" value="Arsenal">
+                        <label for="arsenal">Arsenal FC</label><br>
+                </p>
+                <p>Extra Comments:<br><textarea name="comments" rows="4" cols="40"></textarea></p>
+                <input type="submit"/>
+            </form>
+        </div>     
+    </body>
+</html>
